@@ -45,10 +45,37 @@ section {
 .sociallink {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .sociallink * {
     margin-right: 24px;
     font-size: 32px;
     color: black;
+}
+
+/* Media Query for Phone */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-family: "Noto Serif", serif;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h6 {
+        font-size: 8px;
+    }
+
+    .introduction * .name img {
+        max-width: 75%;
+        max-height: auto;
+    }
+    .sociallink * {
+        margin-right: 16px;
+        font-size: 24px;
+        color: black;
+    }
 }
