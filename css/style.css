@@ -56,6 +56,9 @@ section {
 
 /* Media Query for Phone */
 @media screen and (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
     h1 {
         font-family: "Noto Serif", serif;
         font-size: 36px;
