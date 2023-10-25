@@ -1,0 +1,54 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Noto Serif", serif;
+    font-size: 48px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    width: 80%;
+}
+
+.introduction {
+    height: 95vh;
+    background-color: beige;
+    flex-direction: column-reverse;
+    padding-bottom: 5vh;
+}
+
+.introduction * .name * {
+    margin-bottom: 12px;
+}
+
+.introduction * .name img {
+    max-width: 25%;
+    max-height: auto;
+}
+
+.sociallink {
+    display: flex;
+    flex-direction: row;
+}
+
+.sociallink * {
+    margin-right: 24px;
+    font-size: 32px;
+    color: black;
+}
