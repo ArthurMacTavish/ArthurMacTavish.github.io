@@ -1,3 +1,4 @@
+/* General */
 * {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -20,28 +21,43 @@ section {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding-top: 5vh;
 }
 
+ul {
+    padding: 1vh;
+    list-style-position: inside;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+/* Content Divisions for Each Section */
 .content {
     width: 80%;
 }
 
+/* Introduction */
 .introduction {
-    height: 95vh;
     background-color: beige;
-    flex-direction: column-reverse;
-    padding-bottom: 5vh;
+    flex-direction: column;
+    padding-bottom: 24px;
+    padding-top: 96px;
 }
 
-.introduction * .name * {
+.introduction * {
     margin-bottom: 12px;
+    margin-top: 12px;
 }
 
-.introduction * .name img {
+.introduction img {
     max-width: 25%;
     max-height: auto;
 }
 
+/* Social Links */
 .sociallink {
     display: flex;
     flex-direction: row;
@@ -51,12 +67,18 @@ section {
 
 .sociallink * {
     margin-right: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     font-size: 32px;
     color: black;
 }
 
-/* Media Query for Phone */
-@media screen and (max-width: 768px) {
+/* Who Am I (who-m-i) */
+
+
+
+/* Media Query for Phone - Coming Soon */
+/* @media screen and (max-width: 768px) {
     h1 {
         font-family: "Noto Serif", serif;
         font-size: 36px;
@@ -79,4 +101,4 @@ section {
         font-size: 24px;
         color: black;
     }
-}
+} */
