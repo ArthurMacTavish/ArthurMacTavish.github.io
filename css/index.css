@@ -80,7 +80,44 @@ a {
 
 /* Who Am I (who-m-i) */
 .who-m-i {
-    background-color: #FFFFB7;
+    background-color: #FFFFC8;
+}
+
+/* Support Page (support) */
+.support {
+    background-color: #F0FFAD;
+}
+
+.support div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support .support-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.support .support-links button {
+    width: 20vh;
+    text-align: center;
+
+    border-radius: 8px;
+    box-shadow: 4px 4px black;
+    transition: 0.5s;
+}
+
+.support .support-links button:hover {
+    box-shadow: 8px 8px black;
+}
+
+.support .support-links .trakteer {
+    background-color: #FFBAC2;
+}
+
+.support .support-links .paypal {
+    background-color: #AFDCFF;
 }
 
 

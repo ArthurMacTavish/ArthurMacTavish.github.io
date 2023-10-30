@@ -18,12 +18,11 @@ function GetQuote() {
         document.getElementById("quotesLink").innerHTML = quote[0]
         document.getElementById("quotesName").innerHTML = quote[1]
         
-        if (quote[2] == "/") {
-            document.getElementById("quotesLink").href = quote[2]
-        } else {
-            document.getElementById("quotesLink").href = quote[2]
+        if (quote[2] != "/") {
             document.getElementById("quotesLink").target = "_blank" 
         }
+
+        document.getElementById("quotesLink").href = quote[2]
     });
 }
 
