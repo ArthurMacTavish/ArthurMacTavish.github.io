@@ -33,7 +33,7 @@ function unFadeText() {
 
 try {
     GetQuote();
-    setTimeout(unFadeText, 1)
+    setTimeout(unFadeText, 2)
 }
 catch (err) {
     document.getElementById("quotesContent").innerHTML = "There's a bit of a problem with the \"Quoting System\", please try again later :)"
