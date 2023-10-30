@@ -22,6 +22,8 @@ section {
     align-items: center;
     width: 100%;
     padding-top: 5vh;
+    padding-bottom: 64px;
+    padding-top: 64px;
 }
 
 ul {
@@ -34,17 +36,19 @@ li {
     margin-bottom: 12px;
 }
 
+a {
+    color: black;
+}
+
 /* Content Divisions for Each Section */
 .content {
     width: 80%;
+    max-height: max-content;
 }
 
 /* Introduction */
 .introduction {
     background-color: beige;
-    flex-direction: column;
-    padding-bottom: 64px;
-    padding-top: 64px;
 }
 
 .introduction * {
@@ -75,7 +79,9 @@ li {
 }
 
 /* Who Am I (who-m-i) */
-
+.who-m-i {
+    background-color: #FFFFB7;
+}
 
 
 /* Media Query for Phone - Coming Soon */
