@@ -1,0 +1,11 @@
+@import url("/assets/css/mobile/universal.css");
+
+@media screen and (max-width: 768px) {
+    a {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}

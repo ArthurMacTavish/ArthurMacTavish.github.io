@@ -21,7 +21,6 @@ section {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 5vh;
     padding-bottom: 64px;
     padding-top: 64px;
 }
@@ -129,6 +128,7 @@ a {
 /* footer */
 .footer {
     background-color: #B1FF84;
+    text-align: center;
 }
 
 .footer .content {
@@ -137,28 +137,11 @@ a {
     align-items: center;
 }
 
-/* Media Query for Phone - Coming Soon */
-/* @media screen and (max-width: 768px) {
-    h1 {
-        font-family: "Noto Serif", serif;
-        font-size: 36px;
-    }
+.footer .sociallink {
+    justify-content: center;
+}
 
-    h2 {
-        font-size: 24px;
-    }
-
-    h6 {
-        font-size: 8px;
-    }
-
-    .introduction * .name img {
-        max-width: 75%;
-        max-height: auto;
-    }
-    .sociallink * {
-        margin-right: 16px;
-        font-size: 24px;
-        color: black;
-    }
-} */
+.footer .sociallink * {
+    margin-left: 12px;
+    margin-right: 12px;
+}

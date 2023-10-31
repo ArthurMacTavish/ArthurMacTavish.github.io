@@ -7,7 +7,7 @@ a {
     font-size: 48px;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,16 +28,12 @@ body{
     margin-top: 0px;
 }
 
-.notfound h6 {
+h6 {
     opacity: 50%;
-    margin: 0;
-    position: absolute;
-    bottom: 5vh;
-    left: 50vh;
-    right: 50vh;
 }
 
-#quotesContent, #quotesName {
+#quotesContent,
+#quotesName {
     opacity: 0;
     transition: 1s;
 }

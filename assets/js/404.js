@@ -1,5 +1,5 @@
 function GetQuote() {
-    jQuery.get('/misc/quotes404.txt', function(data) {
+    jQuery.get('/assets/misc/quotes404.txt', function(data) {
         if (data.includes("\r\n")) {
             quotes = data.split("\r\n")
         } else if (data.includes("\r")) {

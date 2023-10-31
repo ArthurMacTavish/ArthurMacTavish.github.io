@@ -1,0 +1,21 @@
+@import url("/assets/css/mobile/universal.css");
+
+@media screen and (max-width: 768px) {
+    .introduction img {
+        max-width: 65%;
+        max-height: auto;
+    }
+    .sociallink * {
+        margin-right: 16px;
+        font-size: 24px;
+        color: black;
+    }
+    
+    .support .support-links {
+        flex-direction: column;
+    }
+    
+    .support .support-links .trakteer {
+        margin-bottom: 24px;
+    }
+}
