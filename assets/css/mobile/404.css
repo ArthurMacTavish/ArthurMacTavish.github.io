@@ -8,4 +8,8 @@
     h3 {
         font-size: 18px;
     }
+
+    .support .support-links .trakteer {
+        margin-right: 0px;
+    }
 }
