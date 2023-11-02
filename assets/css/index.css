@@ -103,7 +103,8 @@ a {
 }
 
 .support .support-links button {
-    width: 20vh;
+    padding-left: 24px;
+    padding-right: 24px;
     text-align: center;
 
     border: black solid;
@@ -123,6 +124,7 @@ a {
 
 .support .support-links .paypal {
     background-color: #AFDCFF;
+    width: 100%;
 }
 
 /* footer */
