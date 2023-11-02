@@ -96,6 +96,10 @@ a {
 .support .support-links {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    gap: 12px;
+    align-items: flex-start;
 }
 
 .support h1 {
@@ -106,25 +110,28 @@ a {
     padding-left: 24px;
     padding-right: 24px;
     text-align: center;
-
     border: black solid;
     border-radius: 8px;
     box-shadow: 4px 4px black;
     transition: 0.5s;
+    width: 100%;
 }
 
 .support .support-links button:hover {
     box-shadow: 8px 8px black;
 }
 
+.support .support-links a {
+    flex: 1 0 0;
+    width: 100%
+}
+
 .support .support-links .trakteer {
     background-color: #FFBAC2;
-    margin-right: 24px;
 }
 
 .support .support-links .paypal {
     background-color: #AFDCFF;
-    width: 100%;
 }
 
 /* footer */

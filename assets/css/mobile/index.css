@@ -13,10 +13,6 @@
     
     .support .support-links {
         flex-direction: column;
-    }
-    
-    .support .support-links .trakteer {
-        margin-bottom: 24px;
-        margin-right: 0px;
+        gap: 24px;
     }
 }
