@@ -14,5 +14,6 @@
     .support .support-links {
         flex-direction: column;
         gap: 24px;
+        max-width: 240px;
     }
 }

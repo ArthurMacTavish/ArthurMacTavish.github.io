@@ -4,11 +4,15 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+header, main, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -37,6 +41,25 @@ li {
 
 a {
     color: black;
+}
+
+/* HEADER! */
+header, .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-content: center;
+    background-color: beige;
+    position: sticky;
+    top: 0
+}
+
+header a {
+    margin: auto 12px;
+    font-weight: 500;
 }
 
 /* Content Divisions for Each Section */
@@ -98,6 +121,7 @@ a {
     flex-direction: row;
     justify-content: center;
     width: 50%;
+    max-width: 360px;
     gap: 12px;
     align-items: flex-start;
 }
@@ -135,22 +159,22 @@ a {
 }
 
 /* footer */
-.footer {
+footer {
     background-color: #B1FF84;
     text-align: center;
 }
 
-.footer .content {
+footer .content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.footer .sociallink {
+footer .sociallink {
     justify-content: center;
 }
 
-.footer .sociallink * {
+footer .sociallink * {
     margin-left: 12px;
     margin-right: 12px;
 }
