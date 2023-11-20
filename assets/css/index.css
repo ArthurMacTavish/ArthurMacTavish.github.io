@@ -84,7 +84,8 @@ header a {
 .introduction * {
     margin-bottom: 0px;
     margin-top: 12px;
-    color: white
+    color: white;
+    text-align: center;
 }
 
 .introduction img {
