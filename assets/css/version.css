@@ -1,0 +1,122 @@
+/* General */
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Noto Serif", serif;
+    font-size: 48px;
+}
+
+section:not(.sidebar) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+ul {
+    padding: 1vh;
+    list-style-position: inside;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+a {
+    color: black;
+}
+
+/* HEADER! */
+header {
+    padding: 12px 24px;
+    align-items: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    mix-blend-mode: difference;
+}
+
+header * {
+    color: white;
+    font-size: 32px;
+}
+
+.sidebar a {
+    margin-bottom: 12px;
+    
+    color: white;
+    text-align: right;
+}
+
+/* Content Divisions for Each Section */
+.content {
+    width: 80%;
+    max-height: max-content;
+}
+
+/* SIDEBAR */
+.sidebar {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 2;
+    padding: 24px 24px 0px 96px;
+
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    font-size: 24px;
+
+    border-left: 12px beige solid;
+}
+
+/* Social Links */
+.sociallink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px 24px
+}
+
+.sociallink * {
+    font-size: 32px;
+    color: black;
+}
+
+/* Title */
+/* footer */
+footer {
+    background-color: #B1FF84;
+    text-align: center;
+}
+
+footer .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

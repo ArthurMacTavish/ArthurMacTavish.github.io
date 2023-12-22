@@ -1,14 +1,26 @@
 @import url("/assets/css/mobile/universal.css");
 
 @media screen and (max-width: 768px) {
+    header * {
+        font-size: 24px;
+    }
+
+    .sidebar {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sidebar a {
+        margin-bottom: 10px;
+    }
+
     .introduction img {
         max-width: 45%;
         max-height: auto;
     }
+
     .sociallink * {
-        margin-right: 16px;
         font-size: 24px;
-        color: black;
     }
     
     .support .support-links {
